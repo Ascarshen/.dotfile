@@ -1,0 +1,9 @@
+- clean: ['~']
+
+
+- link:
+    ~/.tmux.conf: tmux.conf
+
+- shell:
+  - [git submodule update --init --recursive, Installing/updating submodules]
+  - [~/dotfiles/vim/bundle/YouCompleteMe/install.sh, Installing YouCompleteMe]
