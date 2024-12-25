@@ -2,8 +2,9 @@
 
 
 - link:
-    ~/.tmux.conf: tmux.conf
+    ~/.tmux.conf: ./tmux/.tmux.conf
+
 
 - shell:
   - [git submodule update --init --recursive, Installing/updating submodules]
-  - [~/dotfiles/vim/bundle/YouCompleteMe/install.sh, Installing YouCompleteMe]
+  - [~/.dotfile/vim/bundle/YouCompleteMe/install.sh, Installing YouCompleteMe]

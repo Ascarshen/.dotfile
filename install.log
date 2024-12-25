@@ -1,0 +1,4 @@
+WARNING: this script is deprecated. Use the install.py script instead.
+File /home/kali/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/build.py does not exist; you probably forgot to run:
+	git submodule update --init --recursive
+
